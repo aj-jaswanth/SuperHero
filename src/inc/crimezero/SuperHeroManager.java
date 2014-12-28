@@ -14,6 +14,9 @@ public class SuperHeroManager {
 	private Keypad keypad;
 	private HashMap<String, String> hashTable;
 
+	/**
+	 * Constructor takes an array of names as initial list of SuperHeroes	
+	 */
 	public SuperHeroManager(String[] superHeroes) {
 		keypad = new Keypad();
 		hashTable = new HashMap<>();
