@@ -3,6 +3,12 @@ package inc.crimezero;
 import java.util.ArrayList;
 import java.util.HashMap;
 
+/**
+ * Class that decodes the number into a superhero name
+ * 
+ * @author Venkata Jaswanth
+ *
+ */
 public class SuperHeroManager {
 	private ArrayList<String> superHeroesList;
 	private Keypad keypad;

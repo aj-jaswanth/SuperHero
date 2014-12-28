@@ -2,6 +2,12 @@ package inc.crimezero;
 
 import java.util.ArrayList;
 
+/**
+ * Class that manages the mapping between keypad numbers and the alphabets
+ * 
+ * @author Venkata Jaswanth
+ *
+ */
 public class Keypad {
 	private ArrayList<String> keys;
 	private int[] reverseTable;
